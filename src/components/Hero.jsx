@@ -11,8 +11,8 @@ const Hero = () => {
         />
         <div className="bg-black absolute top-0 left-0 w-full h-screen opacity-30"></div>
 
-        <div className="absolute top-0 w-full flex flex-col justify-center text-white">
-          <div>
+        <div className="absolute top-0 w-full h-full flex flex-col justify-center text-white">
+          <div className="mx-20 top-1/2 left-1/2 -translate-1/2 text-center flex gap-4 flex-col items-center">
             <p>All inclusive</p>
             <h1>Private Beaches & Getaway</h1>
             <p>
@@ -22,7 +22,7 @@ const Hero = () => {
               quo delectus obcaecati alias fuga consectetur tempora voluptas,
               blanditiis iusto repudiandae, molestiae repellendus!
             </p>
-            <button>Reserve now</button>
+            <button className="mt-4 w-[200px]">Reserve now</button>
           </div>
         </div>
       </div>
